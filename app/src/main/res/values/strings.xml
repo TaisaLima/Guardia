@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Guardiã</string>
+    <string name="call_police_text">Call Police</string>
+    <string name="safe_places_text">Nearby Safe Places</string>
+    <string name="help_center_text">Help Center</string>
+    <string name="ask_for_help_text">Ask for Help</string>
+    <string name="ask_for_help_description">Stay Safe</string>
+    <string name="configurations_text">Configurations</string>
+    <string name="emergency_contacts_text">Emergency Contacts</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Password</string>
+    <string name="app_slogan">Whenever You Need</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="await_text">Await</string>
+    <string name="help_is_comming_text">Help Is Coming</string>
+    <string name="remaining_text">Minutes Remaining</string>
+    <string name="phone_number_text">Phone Number:</string>
+</resources>

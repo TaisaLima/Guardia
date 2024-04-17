@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guardiã</string>
+    <string name="call_police_text">Chamar Polícia</string>
+    <string name="safe_places_text">Locais Seguros Próximos</string>
+    <string name="help_center_text">Central De Socorro</string>
+    <string name="ask_for_help_text">Peça Ajuda</string>
+    <string name="ask_for_help_description">Fique Segura</string>
+    <string name="configurations_text">Configurações</string>
+    <string name="emergency_contacts_text">Contatos De Emergência</string>
+    <string name="login_text">Entrar</string>
+    <string name="sign_up_text">Cadastrar</string>
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Senha</string>
+    <string name="app_slogan">Sempre Que Você Precisar</string>
+    <string name="cancel_text">Cancelar</string>
+    <string name="await_text">Aguarde</string>
+    <string name="help_is_comming_text">Ajuda Está a Caminho</string>
+    <string name="remaining_text">Minutos Restantes</string>
+    <string name="phone_number_text">Telefone:</string>
+</resources>

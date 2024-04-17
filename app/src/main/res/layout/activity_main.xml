@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/englishButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/dark_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/page_name"
+        app:layout_constraintBottom_toBottomOf="@id/page_name"/>
+
+    <TextView
+        android:id="@+id/page_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_center_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/page_title"
+        app:layout_constraintBottom_toBottomOf="@id/page_title"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/askForHelpButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/dark_purple"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintHeight_percent="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page_title">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ask_for_help_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ask_for_help_text"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                android:id="@+id/ask_for_help_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ask_for_help_description"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/light_purple"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ask_for_help_text"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_arrow_right"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@id/ask_for_help_text"
+                app:layout_constraintTop_toTopOf="@id/ask_for_help_text"
+                app:layout_constraintBottom_toBottomOf="@id/ask_for_help_description"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/configurations_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent_shape"
+        android:text="@string/configurations_text"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:textAllCaps="false"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/askForHelpButton"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/emergency_contacts_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_purple_shape"
+        android:text="@string/emergency_contacts_text"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/configurations_button"/>
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emergency_contacts_button"
+        app:layout_constraintBottom_toTopOf="@id/safety_places_button"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/safety_places_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent_shape"
+        android:text="@string/safe_places_text"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:textAllCaps="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/call_police_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/call_police_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_purple_shape"
+        android:text="@string/call_police_text"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
