@@ -16,7 +16,7 @@ Para entender mais detalhes deste projeto, baixe o arquivo "Relatório-do-projet
 ![Tela de espera](https://github.com/TaisaLima/Guardia/assets/107267331/5c84d1f6-8532-46f6-8a54-f5a9014b033e)
 
 
-Desenvolvido por: Taisa Lima e Silva, Ana Gabriela, Camille Gabriela e Letícia Maria.
+Desenvolvido por: Taisa Lima e Silva, Ana Gabriela, Camilly Gabriela e Letícia Maria.
 
 
 
