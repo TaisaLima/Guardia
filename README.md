@@ -4,13 +4,13 @@ O aplicativo de segurança pessoal "Guardiã" visa fornecer aos usuários ferram
 
 Para entender mais detalhes deste projeto, baixe o arquivo "Relatório-do-projeto.pdf". Vale ressaltar que algumas das funcionalidades propostas no relatório do projeto não foram de fato implementadas por conta do tempo limitado da competição. 
 
+## Fluxograma do funcionamento do código-fonte
+![image](https://github.com/TaisaLima/Guardia/assets/107267331/ed9b8797-89d2-440c-89ae-db4ee4b761f5)
+
 
 ## Painel principal
 ![Page](https://github.com/TaisaLima/Guardia/assets/107267331/cf831fa1-95ee-413c-9840-8facf72a5993)
 
-
-
-![image](https://github.com/TaisaLima/Guardia/assets/107267331/1977ddcf-378c-4d4c-9b73-d831f0ec98e4)
 
 ## Tela de espera
 ![Tela de espera](https://github.com/TaisaLima/Guardia/assets/107267331/5c84d1f6-8532-46f6-8a54-f5a9014b033e)
