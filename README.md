@@ -4,6 +4,8 @@ O aplicativo de segurança pessoal "Guardiã" visa fornecer aos usuários ferram
 
 Para entender mais detalhes deste projeto, baixe o arquivo "Relatório-do-projeto.pdf". Vale ressaltar que algumas das funcionalidades propostas no relatório do projeto não foram de fato implementadas por conta do tempo limitado da competição. 
 
+Pitch deste projeto : https://drive.google.com/file/d/1EWFSQLZYvsexzZfrR8CgHL9t8ZkUDeL_/view?usp=drivesdk
+
 ## Fluxograma do funcionamento do código-fonte
 ![image](https://github.com/TaisaLima/Guardia/assets/107267331/ed9b8797-89d2-440c-89ae-db4ee4b761f5)
 
